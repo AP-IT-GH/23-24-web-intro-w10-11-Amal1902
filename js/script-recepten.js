@@ -28,7 +28,7 @@ fetch('https://api.sampleapis.com/coffee/hot/?results=20')
 
               <div id="collapse${i}" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
               <div class="pb-3 accordion-body">
-              <img src="${recipe.image}" class="img-small float-start" alt="${recipe.title}" whidth="100" height= "100"><span class="h6 ps-3 mt-2">ingrediënten</span>:${recipe.ingredients}            <hr><span class="h6 ps-3 mt-2">bereiding</span>:${recipe.description}         </div>
+              <img src="${recipe.image}" class="pe-3 img-small float-start" alt="${recipe.title}" whidth="100" height= "100"><span class="koffiebruin h6 mt-2">ingrediënten</span>:${recipe.ingredients}            <hr><span class="koffiebruin h6 mt-2">bereiding</span>:${recipe.description}         </div>
             </div>
       </div>`;
     }

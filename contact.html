@@ -15,12 +15,26 @@
     
     <!-- eigen geschreven css voor jouw html-bestand -->
     <link href="./css/style.css" rel="stylesheet">
+    
+    <!-- LEAFLET -->
+    <!-- voeg het leaflet css-bestand toe om de kaart van standaard opmaak te voorzien -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+
+    <!-- voeg het mapStyle.css bestand toe. Hierin zetten we alle css specifiek voor de kaart -->
+    <link rel="stylesheet" href="./css/mapStyle.css">
+    <!-- voeg de leaflet.js javascript toe aan de pagina en check de integriteit ervan -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <!-- voeg het mapScript.js script toe aan de pagina en laad het als de pagina geladen is. -->
+    <script src="./js/mapScript.js" defer></script>
 
   </head>
 
   <body class="p-3 m-0 border-0 bd-example">
     <nav class="navbar navbar-expand-md bg-body-tertiary">
-      <a class="navbar-brand" href="#"><img src="assets/coffee.png" alt="Koffie & co" width="100" height="100">
+      <a class="navbar-brand" href="index.html"><img src="assets/coffee.png" alt="Koffie & co" width="100" height="100">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
